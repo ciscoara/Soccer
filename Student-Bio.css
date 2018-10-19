@@ -1,0 +1,49 @@
+.Student-Bio   {
+    background-color: black;
+    color: white;
+
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+.wrapper > div   { 
+background: #eee;
+padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+    background: #ddd;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+
+}
+h2 {
+    text-align: left;
+}
+
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: azure;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 10px;
+
+
+}
+ul {
+    color: red;
+    font-family:sans-serif;
+    text-align: left;
+}
